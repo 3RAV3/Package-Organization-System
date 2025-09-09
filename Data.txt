@@ -1,0 +1,6 @@
+[]
+[]
+[[10, 10], [10, 5], [5, 5]]
+// On line 3, each list is the format [rows x columns]. In order to change the possible space of the given environment,
+// modify the lists on line 3. The current format is that there is  10x10 space, a 10x5 space, and a 5x5 space for
+// packages.
