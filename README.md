@@ -1,10 +1,14 @@
 Package Sorting System
-=================================================================================================================
+
+----------------------------------------------------------------------------------------------------------------
+
 Overview -
 The Package Sorting System is a Python-based tool designed for internal office staff to manage incoming tenant
 packages effectively. It assigns storage locations to packages, allows quick retrieval, and keeps the database 
 up to date. This tool is intended for use by trusted front office personnel.
+
 -----------------------------------------------------------------------------------------------------------------
+
 Features - 
 Add Packages: Enter onwer names and package widths: The system automatically calculates storage positions.
 Find Packages: Locate a package using the owner's name, showing row and column placement.
@@ -14,6 +18,7 @@ Data Persistence: Stores package and location information in a text file (Data.t
   sessions and retain valueable package information.
 Input Validation: Ensures users provide valid information and allows for operations to be canceled during the 
   process.
+
 -----------------------------------------------------------------------------------------------------------------
 Requirements - 
 - Python 3.x
@@ -29,22 +34,23 @@ Setup -
 
    python Main.py
 
-=================================================================================================================
+-----------------------------------------------------------------------------------------------------------------
+
 Usage - 
 When running the program, users can choose from the following commands: 
 
-Command         Description
 -----------------------------------------------------------------------------------------------------------------
+Command     /      Description
 
-update          Add new packages and assign storage locations
+update -             Add new packages and assign storage locations
 
-find            Locate a package using the owner's name
+find -               Locate a package using the owner's name
 
-remove          Remove packages by name or location, or remove all packages at once
+remove -             Remove packages by name or location, or remove all packages at once
 
-stop            Save all data and exit the program
-
-details         Display detailed instructions for all commands
+stop -               Save all data and exit the program
+    
+details -            Display detailed instructions for all commands
 
 -----------------------------------------------------------------------------------------------------------------
 
